@@ -12,9 +12,9 @@ body {
 .header,
 .section-1,
 .section-2,
-.section-3,
 .section-4 {
-    padding: 0 200px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 ul {
@@ -46,6 +46,7 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding-bottom: 32px;
 }
 
 .header a {
@@ -63,6 +64,8 @@ a {
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-size: 18px;
 }
 
@@ -81,6 +84,8 @@ a {
 
 .section-2 {
     flex: 1;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .section-2 .container {
@@ -94,6 +99,7 @@ a {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    padding-bottom: 64px;
 }
 
 .info {
@@ -113,6 +119,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 400px;
     flex: 1;
 }
 
@@ -139,8 +146,12 @@ a {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 6px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex: 1;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin: 64px 0;
 }
 
 .footer {
