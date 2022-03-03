@@ -23,6 +23,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 8px;
+    color: #e5e7eb;
 }
 
 button {
