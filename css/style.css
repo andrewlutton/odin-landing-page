@@ -7,6 +7,14 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.header,
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding: 0 200px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -69,11 +77,11 @@ a {
     border: 6px solid #3882f6;
 }
 
-.container {
+.section-2 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 42px;
 }
 
 .section-2 .title {
@@ -93,10 +101,22 @@ a {
     border-radius: 10px;
 }
 
-.header,
-.section-1,
-.section-2,
-.section-3,
-.section-4 {
-    padding: 0 200px;
+.section-3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.quoting {
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
 }
